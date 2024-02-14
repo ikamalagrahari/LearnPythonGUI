@@ -9,7 +9,7 @@ class FileManagerApp:
         # Adjust size as needed
         # Set up the background image (if desired)
         # uncomment and replace with appropriate image path
-        # image_path = ""C:\Users\Gyandev\Downloads\portfolio-main\images\background.png""
+        # image_path = ""C:\Users\images\background.png""
         # background_image = tk.PhotoImage(file=image_path)
         # background_label = tk.Label(root, image=background_image)
         # background_label.place(relwidth=1, relheight=1)
