@@ -16,15 +16,15 @@ except ImportError:
     root = Tk()
 
     frame = Frame(root)
-    frame.pack()
+    frame.pack()                       #frame 1
 
     frame2 = Frame(root)
-    frame2.pack(side=BOTTOM)
+    frame2.pack(side=BOTTOM)           #frame 2
 
     filebutton = Button(frame, text="FILE", fg="red")
     filebutton.pack(side=LEFT)
 
-    editbutton = Button(frame, text="EDIT", fg="red")
+    editbutton = Button(frame, text="EDIT", fg="green")
     editbutton.pack(side=LEFT)
 
     optionbutton = Button(frame, text="OPTION", fg="red")
