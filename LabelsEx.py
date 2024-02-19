@@ -30,5 +30,6 @@ except ImportError:
     text3 = Label(root, textvariable=var1, relief=RAISED)
     var2.set("Hello ! Programmers ")
     text3.pack()
+
     root.title("Label Example")
     root.mainloop()
