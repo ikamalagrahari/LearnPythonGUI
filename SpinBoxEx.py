@@ -13,7 +13,12 @@ except ImportError:
 
     py3 = True
 
-    root = Tk()
+root = Tk()
 
-    root.title("Basic Example ")
-    root.mainloop()
+numberBox = Spinbox(root, from_=0 , to=100)
+numberBox.pack()
+
+
+
+root.title("SpinBox Example ")
+root.mainloop()
